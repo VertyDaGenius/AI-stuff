@@ -120,7 +120,7 @@ while True:
 
 
     if choice =="2":
-        print(color + 'bye! come back soon :3')
+        print(color + 'bye! come back soon!')
         time.sleep(2)
         exit()
 
