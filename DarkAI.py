@@ -86,10 +86,9 @@ while True:
             return response.choices[0].text.strip()
 
         def transform_response(response):
-            response = response.replace("ProtoBot:", "")
-            response = response.replace("Protobot:", "")
-            response = response.replace("protoBot:", "")
-            response = response.replace("protoBot:", "")
+            response = response.replace("DAN", "DarkAI")
+            response = response.replace("dan", "DarkAI")
+
 
             return response
 
@@ -129,7 +128,6 @@ while True:
         
 
         
-
 
 
 
